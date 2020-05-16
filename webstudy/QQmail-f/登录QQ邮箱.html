@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录QQ邮箱</title>
+</head>
+<style type="text/css">
+    a:link {color: #3767A0;
+        text-decoration: none;}
+    a:visited {color: #3767A0;
+        text-decoration: none;}
+    a:hover {color: #3767A0;
+        text-decoration: none;}
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 60px;/* 这里需要按照% */
+        width: 100%;
+        background-color: #EFF4FA;
+        border-style: solid;
+        border-color: #E6E8EB;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-width: 1px;
+
+    }
+    .content {
+        height: 400px;
+        width: 1000px;
+        background-color: white;
+        margin: auto;
+        margin-top: 134px;
+        /* 保证了拖动效果的一致性 顶！ */
+    }
+    .content .text {
+        float: left;
+        background-color: white;
+    }
+    .content .text h1 {
+        font-weight: 550;
+        color: #6F95D3;
+        font-size: 25px;
+        font-family: 等线;
+    }
+    .content .text p {
+        font-weight: 400;
+        line-height: 8px;
+        font-size: 14px;
+        font-family: 微软雅黑;
+    }
+    .content .text a{
+        color: #225592;
+        text-decoration: none;  
+        line-height: 15px;
+        font-size: 12px;
+
+    }
+    .content .img {
+        float: left;
+        background-color: white;
+    }
+    .content .login{
+        float: right;
+        width: 336px;
+        height: 388px;
+        background-color:white;
+        font-size: 13px;
+        border-style: solid;
+        border-color: #A0B1C4;
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+    }
+    .content .login .username{
+        
+        height: 38px;
+        width: 283px;
+        text-align: left;
+        text-indent: 10px;
+        font-size: 15px;
+        font-family: 等线;
+        border-style: solid;
+        border-color: #A0B1C4;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-left: 27px;
+        margin-top: 38px;
+    }
+    .content .login .password{
+        
+        height: 38px;
+        width: 283px;
+        text-align: left;
+        text-indent: 10px;
+        font-size: 15px;
+        font-family: 等线;
+        border-style: solid;
+        border-color: #A0B1C4;
+        border-width: 1px;
+        border-radius: 3px;
+        margin-left: 27px;
+        margin-top: 12px;
+        margin-bottom: 26px;
+    }
+    .content .login .auto{
+        color: lightblue;
+        font-size: 5px;
+        border-style: solid;
+        border-radius: 5px;
+        margin-left: 27px;    
+    }
+    .content .login .button{
+        background-color: #5A98DE;
+        font-size: 20px;
+        font-family: SimHei;
+        color: white;
+        height: 38px;
+        width: 283px;
+        border-style: none;
+        border-radius: 4px;
+        margin-left: 27px;
+        margin-top: 17px;
+        margin-bottom: 0px;
+    }
+    .content .login .scan a{
+        color: #2255A0;
+        font-size: 13px;
+        margin-left: 90px;
+        margin-bottom: 30px;
+    }
+    
+    .content .login .forget a{
+        color: #2255A0;
+        font-size: 13px;
+        float: right;
+        bottom: 0px;
+    }
+    .content .login .welcome{
+        color: black;
+        text-align: center;
+        width: 336px;
+        height: 50px;
+        float: left;
+        font-size: 15px;
+        border-style: solid;
+        border-color: #E6E8EB;
+        /* border-top: none;
+        border-left: none;
+        border-right: none; */
+        border-width: 1px;
+
+        
+    }
+    
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30px;
+        
+        background-color: #EFF4FA;
+        border-style: solid;
+        border-color: gainsboro;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-width: 1px;
+
+        text-align: center;
+        color: #959DA6;
+        font-size: 12px;
+        padding-top: 10px;
+    }
+
+    li {
+        list-style: none;
+    }
+    .header_left{
+        float: left;
+    }
+    .header_right{
+        float: right;
+        padding: 10px;
+        color:  #959DA6;
+        font-size: 12px;
+        
+    }
+
+
+</style>
+<body>
+    <div class="header">
+    <ul>
+        <li class="header_left">
+            <img src="point.png" width="150px">
+        </li>
+        <li class="header_right">
+            <nav >
+            <a href="h1">基本版</a> |
+            <a href="h1">English</a> |
+            <a href="h1">手机版</a> |
+            <a href="h2">企业邮箱</a>
+            </nav>
+        </li>
+    </ul>
+    </div>
+
+    <div class="content">
+        <div class="text">
+        <h1>QQ邮箱，常联系！</h1>
+        <p>1982年，第一张电脑笑脸诞生</p>
+        <p>今天，人们已经习惯用它来表达心情</p>
+        <p>现在，你也可以在邮件里</p>
+        <p>用:-)来传达一个微笑的表情</p>
+
+        <a herf="text1" class="more">了解更多表情符号</a>
+        </div>
+
+        <div class="img">
+        <img src="c1.png" width="320px">
+        </div>
+
+        <div class="login">
+            <div class="welcome">
+                <p>欢迎登录</p>
+            </div>
+            <input type="text" class="username" name="username" placeholder="支持QQ号/邮箱/手机号登录" >
+            <br>
+            <input type="password" class="password" name="password" placeholder="QQ密码">
+            <br>
+            <input type="checkbox" class="auto" name="remeber" value="下次自动登录">下次自动登录
+            <br>
+            <input type="button" class="button" name="login" value="登录">
+            <br>
+            <ul class="stext">
+                <li class="scan">
+                    <a href="content_scancode" >扫码快捷登录</a>
+                </li><br>
+                <li class="forget">
+                    <a href="content_forget" > 忘了密码？</a>
+                </li>
+            </ul>
+            
+            
+            
+        </div>
+    
+    </div>
+
+    <div class="footer">
+        <nav >
+            <!-- 空格显示待处理 -->
+            <a href="f1">关于腾讯</a> |
+            <a href="f2">服务条款</a> |
+            <a href="f3">隐私政策</a> | 
+            <a href="f1">客服中心</a> |
+            <a href="f1">联系我们</a> |
+            <a href="f1">帮助中心</a> |
+            <a href="f1">意见反馈</a> |
+            
+         ©1998 - 2020 Tencent Inc. All Rights Reserved.
+        </nav>
+    </div>
+</body>
+</html>
